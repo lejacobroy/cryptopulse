@@ -61,3 +61,7 @@ a {
   background-color: #129f0b;
   border-color: #129f0b;
 }
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
