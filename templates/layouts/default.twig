@@ -24,6 +24,15 @@
 
     <!-- Custom styles for this template -->
     <link href="/cryptopulse.css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117579350-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117579350-1');
+</script>
 	</head>
 	<body>
 		<header>
@@ -41,8 +50,8 @@
             <div class="dropdown-menu" >
               <h6 class="dropdown-header">Introduction</h6>
               <a class="dropdown-item" href="http://cryptopulse.plus/pages/what-s-a-cryptocurrency">What's a Cryptocurrency?</a>
-              <a class="dropdown-item" href="http://cryptopulse.plus/guides/">Where to buy Coins?</a>
-              <a class="dropdown-item" href="http://cryptopulse.plus/guides/">How to store Coins safely?</a>
+              <a class="dropdown-item" href="http://cryptopulse.plus/pages/">Where to buy Coins?</a>
+              <a class="dropdown-item" href="http://cryptopulse.plus/pages/">How to store Coins safely?</a>
               <div class="dropdown-divider"></div>
               <h6 class="dropdown-header">Trading · Investing</h6>
               <a class="dropdown-item" href="#">Trading / Investing</a>
@@ -67,9 +76,9 @@
           </li>-->
         </ul>
         <form class="form-inline my-2 my-md-0">
-            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search" style="width: 150px; position: relative;right:1rem;">
           </form>
-          <ul class="nav navbar-nav navbar-right">
+         <!-- <ul class="nav navbar-nav navbar-right">
 							{% if user is defined %}
 								{% if user.canAccessKeystone %}
 									<li><a href="/keystone">Open Keystone</a></li>
@@ -78,7 +87,7 @@
 							{% else %}
 								<li><a href="/keystone/signin">Sign In</a></li>
 							{% endif %}
-			</ul>
+			</ul>-->
       </div>
     </div>
     </nav>

@@ -30,7 +30,7 @@
 						{% else %}
 
 						{% endif %}
-						<div class="blog">
+						<div class="blog col-md-10">
 							{% for post in data.posts.results %}
 								<div class="post" data-ks-editable="editable(user, { list: 'Post', id: post.id })">
 									<h2 style="display: inline;">
@@ -109,7 +109,7 @@
 				{% endif %}
 			</div>
 			{% if data.categories.length %}
-			<div class="col-sm-4 col-md-3">
+			<!--<div class="col-sm-4 col-md-3">
 				<h2>Categories</h2>
 				<div class="list-group" style="margin-top: 70px;">
 					<a href="/news" class="{% if not data.category %}active{% endif %} list-group-item">All Categories</a>
@@ -117,7 +117,7 @@
 						<a href="/news/{{ cat.key }}" class="{% if data.category and data.category.id == cat.id %}active{% endif %} list-group-item">{{ cat.name }}</a>
 					{% endfor %}
 				</div>
-			</div>
+			</div>-->
 			{% endif %}
 		</div>
 	</div>

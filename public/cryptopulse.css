@@ -46,7 +46,12 @@ code {
 }
 
 a {
-  color: #129f0b;
+  color: #118c0a;
+}
+
+a:hover {
+  color:#16b50e;
+  text-decoration: none;
 }
 
 .btn-primary {
